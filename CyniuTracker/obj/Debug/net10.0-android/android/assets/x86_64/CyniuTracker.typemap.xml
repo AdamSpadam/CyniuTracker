@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="CyniuTracker" mvid="c10a6dc2adf44ef4b5c71ce96ce0a8ac">
+<api type="debug" assembly-name="CyniuTracker" mvid="94abaaa5800f45a8842858f9995478ec">
   <java-to-managed>
     <entry java-name="crc64b4ef42a31ac109ec/MainActivity" managed-name="CyniuTracker.MainActivity, CyniuTracker" managed-type-token-id="33554445" />
     <entry java-name="crc64b4ef42a31ac109ec/MainApplication" managed-name="CyniuTracker.MainApplication, CyniuTracker" managed-type-token-id="33554446" />

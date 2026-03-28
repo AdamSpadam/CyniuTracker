@@ -1617,3 +1617,4 @@ D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\android\asse
 D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\android\assets\x86_64\CsvHelper.jlo.xml
 D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\android\assets\x86_64\CsvHelper.typemap.xml
 D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\assets\TMDB_tv_dataset_v3.csv
+D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\CyniuTracker.sourcelink.json

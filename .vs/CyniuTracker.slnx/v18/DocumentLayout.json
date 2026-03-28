@@ -43,14 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CyniuTracker.csproj",
+              "Title": "CyniuTracker",
               "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\CyniuTracker.csproj",
               "RelativeDocumentMoniker": "CyniuTracker\\CyniuTracker.csproj",
               "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\CyniuTracker.csproj",
               "RelativeToolTip": "CyniuTracker\\CyniuTracker.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-28T12:31:12.475Z",
+              "WhenOpened": "2026-03-28T13:00:48.071Z",
               "EditorCaption": ""
             },
             {
@@ -63,7 +63,8 @@
               "RelativeToolTip": "CyniuTracker\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T12:30:34.119Z"
+              "WhenOpened": "2026-03-28T12:30:34.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

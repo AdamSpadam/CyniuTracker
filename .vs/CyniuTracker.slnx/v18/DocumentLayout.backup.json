@@ -48,9 +48,9 @@
               "RelativeDocumentMoniker": "CyniuTracker\\CyniuTracker.csproj",
               "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\CyniuTracker.csproj",
               "RelativeToolTip": "CyniuTracker\\CyniuTracker.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-28T12:31:12.475Z",
+              "WhenOpened": "2026-03-28T13:00:48.071Z",
               "EditorCaption": ""
             },
             {
@@ -76,8 +76,7 @@
               "RelativeToolTip": "CyniuTracker\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T12:15:19.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T12:15:19.606Z"
             },
             {
               "$type": "Document",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "CyniuTracker\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T12:15:14.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T12:15:14.513Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "CyniuTracker\\MainVievModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T12:09:23.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T12:09:23.864Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "CyniuTracker\\TvReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T12:40:10.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T12:40:10.22Z"
             },
             {
               "$type": "Document",
@@ -128,8 +124,7 @@
               "RelativeToolTip": "CyniuTracker\\ModelTv.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T11:40:43.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T11:40:43.433Z"
             }
           ]
         }
