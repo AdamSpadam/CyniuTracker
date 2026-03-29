@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyniuTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d448273dd9493ed9d07a21f7c82eca4ba1fa5588")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+33ac8466f58fed2e9a4c0bb0c80b03ae7e455da8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyniuTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyniuTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

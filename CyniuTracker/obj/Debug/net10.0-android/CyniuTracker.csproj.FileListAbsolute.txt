@@ -2704,3 +2704,4 @@ D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\android\asse
 D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\android\assets\arm64-v8a\_Microsoft.Android.Resource.Designer.dll
 D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\android\assets\arm64-v8a\_Microsoft.Android.Resource.Designer.jlo.xml
 D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\android\assets\arm64-v8a\_Microsoft.Android.Resource.Designer.typemap.xml
+D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-android\assets\watching.txt

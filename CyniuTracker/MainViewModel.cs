@@ -14,7 +14,13 @@ public partial class MainViewModel : ObservableObject
     string searchText = string.Empty;
 
     [ObservableProperty]
+    string text = "id";
+
+    [ObservableProperty]
     string hometype = "Popular Shows";
+
+    [ObservableProperty]
+    string home = "Popular Shows";
     public MainViewModel()
     {
         _ = LoadData();
@@ -50,5 +56,13 @@ public partial class MainViewModel : ObservableObject
 
             FilteredShows = new ObservableCollection<TvShow>(filtered);
         }
+    }
+    [RelayCommand]
+    private async Task StartWatching(string value)
+    {
+        string fileName = "watching.txt";
+        string filePath = Path.Combine(FileSystem.AppDataDirectory, fileName);
+        System.Diagnostics.Debug.WriteLine(filePath);
+        await File.AppendAllTextAsync(filePath, value + Environment.NewLine);
     }
 }

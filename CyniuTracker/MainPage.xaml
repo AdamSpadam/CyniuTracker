@@ -12,7 +12,6 @@
 
             <SearchBar
             Text="{Binding SearchText}"
-            SearchCommand="{Binding FilterShowsCommand}"
             Placeholder="Search for the series you are watching..."
             PlaceholderColor="Gray"/>
 
@@ -34,6 +33,14 @@
                                    FontSize="14" Margin="5"/>
                                 <Label Text="{Binding overview, StringFormat='Description: {0}'}"
                                        FontSize="14" Margin="5"/>
+                                <Button BackgroundColor="{AppThemeBinding Light=Black, Dark=White}"
+                                        Text="Start Watching"
+                                        WidthRequest="150"
+                                        Margin="15"
+                                        HorizontalOptions="End"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, 
+                                                  Path=BindingContext.StartWatchingCommand}"
+                                        CommandParameter="{Binding id}" />
                             </VerticalStackLayout>
                         </Border>
                     </DataTemplate>
