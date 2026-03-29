@@ -1,0 +1,24 @@
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Maui.Controls;
+
+namespace CyniuTracker
+{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+        }
+
+        // Fallback implementation when generated InitializeComponent is not present
+        private void InitializeComponent()
+        {
+            Microsoft.Maui.Controls.Xaml.Extensions.LoadFromXaml(this, typeof(App));
+        }
+
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new AppShell());
+        }
+    }
+}

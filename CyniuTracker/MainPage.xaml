@@ -3,19 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CyniuTracker.MainPage"
              Title="">
-
     <ScrollView>
-        <VerticalStackLayout
-            HorizontalOptions="Center">
-            <Label
-                Text="Oglodane seriale"
-                FontSize="Title"
-                Margin="14"/>
-            <SearchBar
-                Placeholder="Wyszukaj serial który oglądasz"
-                PlaceholderColor="Gray"
-                WidthRequest="340"/>
-            </VerticalStackLayout>
-    </ScrollView>
+        <VerticalStackLayout>
 
+            <Label Text="{Binding Hometype}"
+               FontSize="Title"
+               Margin="14"/>
+
+            <SearchBar
+            Text="{Binding SearchText}"
+            SearchCommand="{Binding FilterShowsCommand}"
+            Placeholder="Search for the series you are watching..."
+            PlaceholderColor="Gray"/>
+
+            <CollectionView ItemsSource="{Binding FilteredShows}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border  Padding="15" Margin="25" BackgroundColor="{AppThemeBinding Light=White, Dark=Black}">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding name}"
+                                   FontSize="20"
+                                   FontAttributes="Bold"/>
+                                <Image Source="{Binding poster_path, StringFormat='https://image.tmdb.org/t/p/w600_and_h900_face{0}'}" 
+                                        HeightRequest="300"/>
+                                <Label Text="{Binding genres, StringFormat='Genres: {0}'}"
+                                   FontSize="14" Margin="5"/>
+                                <Label Text="{Binding number_of_seasons, StringFormat='Seasons: {0}'}"
+                                       FontSize="14" Margin="5"/>
+                                <Label Text="{Binding number_of_episodes, StringFormat='Number of episodes: {0}'}"
+                                   FontSize="14" Margin="5"/>
+                                <Label Text="{Binding overview, StringFormat='Description: {0}'}"
+                                       FontSize="14" Margin="5"/>
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

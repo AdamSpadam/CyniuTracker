@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "D:\\Progamowanie\\CyniuTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\cyniutracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\cyniutracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\tvshowloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\tvshowloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\tvshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\tvshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\tvshowmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\tvshowmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\tvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\tvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\mainvievmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\mainvievmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|d:\\progamowanie\\cyniutracker\\cyniutracker\\modeltv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70A4EA4-C72B-1349-FBB4-166A7FAC2868}|CyniuTracker\\CyniuTracker.csproj|solutionrelative:cyniutracker\\modeltv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,93 +54,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CyniuTracker",
-              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\CyniuTracker.csproj",
-              "RelativeDocumentMoniker": "CyniuTracker\\CyniuTracker.csproj",
-              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\CyniuTracker.csproj",
-              "RelativeToolTip": "CyniuTracker\\CyniuTracker.csproj",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-28T13:00:48.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\App.xaml",
-              "RelativeDocumentMoniker": "CyniuTracker\\App.xaml",
-              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\App.xaml",
-              "RelativeToolTip": "CyniuTracker\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Settings.xaml",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\Settings.xaml",
+              "RelativeDocumentMoniker": "CyniuTracker\\Settings.xaml",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\Settings.xaml",
+              "RelativeToolTip": "CyniuTracker\\Settings.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T12:30:34.119Z",
+              "WhenOpened": "2026-03-29T19:00:24.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "CyniuTracker\\MainPage.xaml.cs",
-              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainPage.xaml.cs",
-              "RelativeToolTip": "CyniuTracker\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T12:15:19.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainPage.xaml",
               "RelativeDocumentMoniker": "CyniuTracker\\MainPage.xaml",
               "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainPage.xaml",
               "RelativeToolTip": "CyniuTracker\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-28T12:15:14.513Z"
+              "WhenOpened": "2026-03-28T12:15:14.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainVievModel.cs",
-              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainVievModel.cs",
-              "RelativeDocumentMoniker": "CyniuTracker\\MainVievModel.cs",
-              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainVievModel.cs",
-              "RelativeToolTip": "CyniuTracker\\MainVievModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "CyniuTracker\\MainViewModel.cs",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainViewModel.cs",
+              "RelativeToolTip": "CyniuTracker\\MainViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T12:09:23.864Z"
+              "WhenOpened": "2026-03-28T14:49:27.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TvReader.cs",
-              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\TvReader.cs",
-              "RelativeDocumentMoniker": "CyniuTracker\\TvReader.cs",
-              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\TvReader.cs",
-              "RelativeToolTip": "CyniuTracker\\TvReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T12:40:10.22Z"
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\AppShell.xaml",
+              "RelativeDocumentMoniker": "CyniuTracker\\AppShell.xaml",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\AppShell.xaml",
+              "RelativeToolTip": "CyniuTracker\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-29T12:38:53.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ModelTv.cs",
-              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\ModelTv.cs",
-              "RelativeDocumentMoniker": "CyniuTracker\\ModelTv.cs",
-              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\ModelTv.cs",
-              "RelativeToolTip": "CyniuTracker\\ModelTv.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TvShowMap.cs",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\TvShowMap.cs",
+              "RelativeDocumentMoniker": "CyniuTracker\\TvShowMap.cs",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\TvShowMap.cs",
+              "RelativeToolTip": "CyniuTracker\\TvShowMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T11:40:43.433Z"
+              "WhenOpened": "2026-03-28T14:10:04.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TvShow.cs",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\TvShow.cs",
+              "RelativeDocumentMoniker": "CyniuTracker\\TvShow.cs",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\TvShow.cs",
+              "RelativeToolTip": "CyniuTracker\\TvShow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:03:18.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TvShowLoader.cs",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\TvShowLoader.cs",
+              "RelativeDocumentMoniker": "CyniuTracker\\TvShowLoader.cs",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\TvShowLoader.cs",
+              "RelativeToolTip": "CyniuTracker\\TvShowLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T17:02:48.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "CyniuTracker\\AppShell.xaml.cs",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\AppShell.xaml.cs",
+              "RelativeToolTip": "CyniuTracker\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T12:39:14.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CyniuTracker\\App.xaml.cs",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\App.xaml.cs",
+              "RelativeToolTip": "CyniuTracker\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T12:38:18.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Settings.xaml.cs",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\Settings.xaml.cs",
+              "RelativeDocumentMoniker": "CyniuTracker\\Settings.xaml.cs",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\Settings.xaml.cs",
+              "RelativeToolTip": "CyniuTracker\\Settings.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T19:01:37.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "CyniuTracker\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Progamowanie\\CyniuTracker\\CyniuTracker\\MainPage.xaml.cs",
+              "RelativeToolTip": "CyniuTracker\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T12:15:19.606Z"
             }
           ]
         }

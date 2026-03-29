@@ -11,7 +11,8 @@
        Shell.TabBarUnselectedColor="White"
        Shell.TabBarTitleColor="Aquamarine">
     <TabBar>
-        <ShellContent Title="Główna" ContentTemplate="{DataTemplate local:MainPage}" />
-        <ShellContent Title="Ustawienia" ContentTemplate="{DataTemplate local:Ustawienia}" />
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Watching" ContentTemplate="{DataTemplate local:NewPage1}" />
+        <ShellContent Title="Settings" ContentTemplate="{DataTemplate local:Settings}" />
     </TabBar>
 </Shell>
