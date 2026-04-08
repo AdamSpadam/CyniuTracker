@@ -520,4 +520,3 @@ D:\Progamowanie\CyniuTracker\CyniuTracker\bin\Debug\net10.0-windows10.0.19041.0\
 D:\Progamowanie\CyniuTracker\CyniuTracker\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Mvvm.dll
 D:\Progamowanie\CyniuTracker\CyniuTracker\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CsvHelper.dll
 D:\Progamowanie\CyniuTracker\CyniuTracker\obj\Debug\net10.0-windows10.0.19041.0\win-x64\CyniuTracker.sourcelink.json
-D:\Progamowanie\CyniuTracker\CyniuTracker\bin\Debug\net10.0-windows10.0.19041.0\win-x64\watching.txt

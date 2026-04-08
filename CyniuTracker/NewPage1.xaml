@@ -3,9 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CyniuTracker.NewPage1"
              Title="">
-    <VerticalStackLayout>
-        <Label Text="Curently Watching"
+    <ScrollView>
+        <VerticalStackLayout>
+        <Label Text="Currently Watching"
                FontSize="Title"
                Margin="14"/>
+        <CollectionView ItemsSource="{Binding SavedShowData}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border  Padding="15" Margin="25" BackgroundColor="{AppThemeBinding Light=White, Dark=Black}">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding name}"
+                       FontSize="20"
+                       FontAttributes="Bold"/>
+                            <Image Source="{Binding poster_path, StringFormat='https://image.tmdb.org/t/p/w600_and_h900_face{0}'}" 
+                            HeightRequest="300"/>
+                            <Label Text="{Binding genres, StringFormat='Genres: {0}'}"
+                       FontSize="14" Margin="5"/>
+                            <Label Text="{Binding number_of_seasons, StringFormat='Seasons: {0}'}"
+                           FontSize="14" Margin="5"/>
+                            <Label Text="{Binding number_of_episodes, StringFormat='Number of episodes: {0}'}"
+                       FontSize="14" Margin="5"/>
+                            <Button BackgroundColor="{AppThemeBinding Light=Black, Dark=White}"
+                            Text="Finish Watching"
+                            WidthRequest="150"
+                            Margin="15"
+                            HorizontalOptions="End"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}},
+                                              Path=BindingContext.FinishWatchingCommand}"
+                            CommandParameter="{Binding id}" />
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

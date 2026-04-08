@@ -14,5 +14,21 @@
             <Switch x:Name="DarkModeSwitch"
                     Toggled="OnDarkModeToggled"/>
         </HorizontalStackLayout>
+        <HorizontalStackLayout Margin="0,0,0,15">
+            <Label Text="Clear Data" VerticalOptions="Center"
+                   FontSize="20"/>
+            <Button Text="-" Margin="10" BackgroundColor="{AppThemeBinding Dark=White, Light=Black}"
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}},
+                                        Path=BindingContext.ClearCommand}"/>
+        </HorizontalStackLayout>
+        <Line Stroke="{AppThemeBinding Dark=White, Light=Black}"
+                X1="0"
+                X2="150"/>
+        <HorizontalStackLayout Margin="0,15,0,0">
+            <Label Text="Info" VerticalOptions="Center"
+                   FontSize="20" Margin="10,0,49,0"/>
+            <Button Text="(i)" Margin="10" BackgroundColor="{AppThemeBinding Dark=White, Light=Black}" x:Name="info"
+                    Clicked="info_Clicked"/>
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

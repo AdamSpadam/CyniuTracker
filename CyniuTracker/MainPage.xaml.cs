@@ -5,7 +5,8 @@
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = new MainViewModel();
+
+            BindingContext = MainViewModel.Instance;
         }
     }
 }
