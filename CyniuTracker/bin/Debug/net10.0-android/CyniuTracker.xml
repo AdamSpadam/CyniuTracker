@@ -15,6 +15,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MainViewModel.FilteredShows">
             <inheritdoc cref="F:MainViewModel.filteredShows"/>
@@ -27,6 +28,12 @@
         </member>
         <member name="P:MainViewModel.Hometype">
             <inheritdoc cref="F:MainViewModel.hometype"/>
+        </member>
+        <member name="P:MainViewModel.NotFound">
+            <inheritdoc cref="F:MainViewModel.notFound"/>
+        </member>
+        <member name="P:MainViewModel.StartNew">
+            <inheritdoc cref="F:MainViewModel.startNew"/>
         </member>
         <member name="M:MainViewModel.OnSearchTextChanged(System.String)">
             <summary>Executes the logic for when <see cref="P:MainViewModel.SearchText"/> just changed.</summary>
@@ -44,6 +51,12 @@
         </member>
         <member name="P:MainViewModel.FinishWatchingCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MainViewModel.FinishWatching(System.String)"/>.</summary>
+        </member>
+        <member name="F:MainViewModel.finishWatchingDropCommand">
+            <summary>The backing field for <see cref="P:MainViewModel.FinishWatchingDropCommand"/>.</summary>
+        </member>
+        <member name="P:MainViewModel.FinishWatchingDropCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MainViewModel.FinishWatchingDrop(System.String)"/>.</summary>
         </member>
         <member name="F:MainViewModel.clearCommand">
             <summary>The backing field for <see cref="P:MainViewModel.ClearCommand"/>.</summary>
@@ -69,6 +82,12 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Hometype">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Hometype" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NotFound">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NotFound" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartNew">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartNew" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -86,6 +105,12 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Hometype">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Hometype" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NotFound">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NotFound" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartNew">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartNew" generated properties.</summary>
         </member>
     </members>
 </doc>

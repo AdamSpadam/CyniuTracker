@@ -21,6 +21,11 @@ public partial class MainViewModel : ObservableObject
     [ObservableProperty]
     string hometype = "Popular Shows";
 
+    [ObservableProperty]
+    bool notFound = false;
+    [ObservableProperty]
+    bool startNew = false;
+
 
     public MainViewModel()
     {
@@ -54,10 +59,18 @@ public partial class MainViewModel : ObservableObject
             var lower = query.ToLower();
             var filtered = _allShows
                 .Where(s => s.name?.ToLower().Contains(lower) == true)
-                .Take(15)
+                .Take(10)
                 .ToList();
 
             FilteredShows = new ObservableCollection<TvShow>(filtered);
+        }
+        if (!FilteredShows.Any())
+        {
+            NotFound = true;
+        }
+        else
+        {
+            NotFound = false;
         }
     }
 
@@ -69,6 +82,14 @@ public partial class MainViewModel : ObservableObject
         var idHashSet = text.ToHashSet();
         var shows = _allShows.Where(s => idHashSet.Contains(s.id)).ToList();
         SavedShowData = new ObservableCollection<TvShow>(shows);
+        if (!SavedShowData.Any())
+        {
+            StartNew = true;
+        }
+        else
+        {
+            StartNew = false;
+        }
         
     }
 
@@ -90,8 +111,7 @@ public partial class MainViewModel : ObservableObject
             Shell.Current.DisplayAlert("", "You are already watching this show", "Ok");
         }
     }
-    [RelayCommand] 
-    private async Task FinishWatching(string value)
+    private async void Delate(string value)
     {
         var path = FileSystem.AppDataDirectory;
         var fullPath = Path.Combine(path, "file.txt");
@@ -99,14 +119,31 @@ public partial class MainViewModel : ObservableObject
         var updated = lines.Where(l => l.Trim() != value).ToList();
         await File.WriteAllLinesAsync(fullPath, updated);
         await SavedDataAsync();
+    } 
+    [RelayCommand] 
+    private async Task FinishWatching(string value)
+    {
+        Delate(value);
         Shell.Current.DisplayAlert("Finished watching", "Hope you had fun :>", "Ok");
+    }
+    [RelayCommand]
+    private async Task FinishWatchingDrop(string value)
+    {
+        Delate(value);
+        Shell.Current.DisplayAlert("", "Droped the series", "Ok");
     }
     [RelayCommand]
     private async Task Clear(string value)
     {
-        var path = FileSystem.AppDataDirectory;
-        var fullPath = Path.Combine(path, "file.txt");
-        await File.WriteAllTextAsync(fullPath, "");
-        await SavedDataAsync();
+
+        bool answer = await Shell.Current.DisplayAlert("Clear", "Are you sure you want to clear watched series?", "Yes", "No");
+
+        if (answer)
+        {
+            var path = FileSystem.AppDataDirectory;
+            var fullPath = Path.Combine(path, "file.txt");
+            await File.WriteAllTextAsync(fullPath, "");
+            await SavedDataAsync();
+        }
     }
 }

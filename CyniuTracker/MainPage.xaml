@@ -14,7 +14,10 @@
             Text="{Binding SearchText}"
             Placeholder="Search for the series you are watching..."
             PlaceholderColor="Gray"/>
-
+            <Label Text="Show not found."
+                    FontSize="Large"
+                    Margin="20"
+                    IsVisible="{Binding NotFound}"/>
             <CollectionView ItemsSource="{Binding FilteredShows}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>

@@ -8,7 +8,11 @@
         <Label Text="Currently Watching"
                FontSize="Title"
                Margin="14"/>
-        <CollectionView ItemsSource="{Binding SavedShowData}">
+            <Label Text="You are not currently watching any shows."
+                FontSize="Large"
+                Margin="40"
+                IsVisible="{Binding StartNew}"/>
+            <CollectionView ItemsSource="{Binding SavedShowData}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Border  Padding="15" Margin="25" BackgroundColor="{AppThemeBinding Light=White, Dark=Black}">
@@ -23,16 +27,26 @@
                             <Label Text="{Binding number_of_seasons, StringFormat='Seasons: {0}'}"
                            FontSize="14" Margin="5"/>
                             <Label Text="{Binding number_of_episodes, StringFormat='Number of episodes: {0}'}"
-                       FontSize="14" Margin="5"/>
-                            <Button BackgroundColor="{AppThemeBinding Light=Black, Dark=White}"
-                            Text="Finish Watching"
-                            WidthRequest="150"
-                            Margin="15"
-                            HorizontalOptions="End"
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}},
-                                              Path=BindingContext.FinishWatchingCommand}"
-                            CommandParameter="{Binding id}" />
-                        </VerticalStackLayout>
+                                     FontSize="14" Margin="5"/>
+                            <HorizontalStackLayout HorizontalOptions="End">
+                                    <Button BackgroundColor="{AppThemeBinding Light=Black, Dark=White}"
+                                            Text="Drop"
+                                            WidthRequest="90"
+                                            Margin="10"
+                                            HorizontalOptions="End"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}},
+                                                              Path=BindingContext.FinishWatchingDropCommand}"
+                                                              CommandParameter="{Binding id}"/>
+                                    <Button BackgroundColor="{AppThemeBinding Light=Black, Dark=White}"
+                                        Text="Finish Watching"
+                                        WidthRequest="150"
+                                        Margin="10"
+                                        HorizontalOptions="End"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}},
+                                                          Path=BindingContext.FinishWatchingCommand}"
+                                        CommandParameter="{Binding id}" />
+                            </HorizontalStackLayout>
+                            </VerticalStackLayout>
                     </Border>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
