@@ -13,5 +13,6 @@ public class TvShowMap : ClassMap<TvShow>
         Map(m => m.backdrop_path).Name("backdrop_path");
         Map(m => m.poster_path).Name("poster_path");
         Map(m => m.genres).Name("genres");
+        Map(m => m.adult).Name("adult");
     }
 }

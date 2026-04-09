@@ -9,7 +9,7 @@ namespace CyniuTracker
 {
     public static class TvShowLoader
     {
-        public static async Task<List<TvShow>> LoadTvShowsAsync(int maxRecords = 15000)
+        public static async Task<List<TvShow>> LoadTvShowsAsync(int maxRecords = 30000)
         {
             using var stream = await FileSystem.OpenAppPackageFileAsync("TMDB_tv_dataset_v3.csv");
             using var reader = new StreamReader(stream);
@@ -18,6 +18,7 @@ namespace CyniuTracker
 
             var records = csv.GetRecords<TvShow>()
                              .Take(maxRecords)
+                             .Where(s => !s.adult)
                              .ToList();
             return records;
         }

@@ -13,7 +13,8 @@ namespace CyniuTracker
         public string overview { get; set; }
         public string backdrop_path { get; set; }
         public string poster_path { get; set; }
-        public string genres { get; set; } 
+        public string genres { get; set; }
+        public bool adult { get; set; }
     }
 
 }
